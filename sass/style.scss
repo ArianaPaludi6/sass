@@ -1,0 +1,385 @@
+/* fuentes google */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "../sass/_variables.scss" ;
+
+/* end  */
+
+
+
+
+body {
+    background-color: $secondaryColor;
+}
+
+
+.navbar {
+    background-color: $mainColor !important;
+}
+
+.regala {
+    width: 100%;
+
+    h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        color: $thirdColor;
+    }
+
+    p {
+        font-family:$fontOne;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: auto;
+    }
+}
+
+.boxDulce {
+    width: 100%;
+
+    h2 {
+        font-family: $fontTwo;
+        font-weight: 900;
+        color: $thirdColor;
+    }
+
+    p {
+        font-family: $fontOne;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: auto;
+    }
+}
+
+.seccionBox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+    img {
+        width: 200px;
+    }
+
+}
+
+footer {
+    text-align: center;
+    background-color: #7FBABE;
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .tarjetas {
+         margin: 30px;
+        h1{
+            font-size: 1.5rem;
+        }
+        img{
+            width: 50px;
+            
+        }
+    }
+    .redes {
+          margin: 30px;
+       h1{
+        font-size: 1.5rem;
+       }
+    }
+
+.dataFiscal {
+    margin: 30px;
+    h1{
+        font-size: 1.5rem;
+    }
+    img {
+        width: 50px;
+        margin: 0 20px;
+        
+    }
+}
+}
+
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background-color: $thirdColor;
+        border-radius: 15px;
+    }
+
+}
+
+.carouselFotos {
+    width: 100%;
+    margin: auto;
+}
+
+.container-fluid {
+    img {
+        width: 120px;
+    }
+}
+
+
+.seccionRegala {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        width: 200px;
+    }
+
+}
+
+.lugar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-family: $fontTwo;
+        font-size: 1.3em;
+        font-weight: 800;
+        color: $fourColor;
+        font-style: normal;
+        text-align: center;
+        text-shadow: 0.1em 0.1em #333;
+        margin: 10px;
+
+    }
+
+    button {
+        background-color: $fourColor;
+        border-radius: 15px;
+        margin: 10px;
+
+    }
+}
+
+.susana {
+    text-align: center;
+
+    p {
+        font-family: $fontOne;
+        text-align: center;
+    }
+}
+
+.abundante {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100px;
+    }
+}
+
+.somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100px;
+    }
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.trend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100px;
+    }
+
+}
+
+.cartas {
+    background-image: url(../img/fondo.jpg);
+    h5 {
+        font-family: $fontTwo;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    p {
+        font-family: $fontOne;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+}
+
+.mesDulce {
+    h3 {
+        font-family: $fontOne;
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: $fourColor;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.franquisia {
+    img {
+        width: 390px;
+    }
+}
+
+.compra {
+    h2 {
+        font-family: $fontTwo;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.style {
+    font-family: 'Rampart One', cursive;
+    font-weight: 900;
+    color: $thirdColor;
+    font-size: 1rem;
+
+}
+
+.styleOne {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: $fiveColor;
+
+}
+
+
+
+.styleTwo {
+    font-family: $fontTwo;
+    font-size: 1.5rem;
+}
+
+
+.sobreNosotros {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas {
+    img {
+        width: 35px;
+    }
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    .productos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .carouselFotos {
+        width: 60%;
+    }
+
+    .franquisia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 80%;
+            height: 500px;
+
+        }
+    }
+
+
+    .lugar {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.abundante {
+    width: 33%;
+}
+.trend {
+    width: 33%;
+}
+.somos{
+    width: 33%;
+}
+
+.boxDulce {
+    width: 40%;
+}
+
+.regala{
+    width: 40%;
+}
+
+.sobreNosotros{
+    flex-direction: row;
+}
+
+.seccionBox{
+ img {
+    width: 300px;
+}
+}
+
+
+.seccionRegala{
+ img{
+    width: 300px ;
+}
+}
+
+footer {
+    .contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+}

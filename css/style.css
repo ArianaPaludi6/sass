@@ -1,0 +1,339 @@
+/* fuentes google */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* end  */
+body {
+  background-color: #faf5ee;
+}
+
+.navbar {
+  background-color: #86b7b6 !important;
+}
+
+.regala {
+  width: 100%;
+}
+
+.regala h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #ce8c98;
+}
+
+.regala p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
+}
+
+.boxDulce {
+  width: 100%;
+}
+
+.boxDulce h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #ce8c98;
+}
+
+.boxDulce p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
+}
+
+.seccionBox {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.seccionBox img {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  background-color: #7FBABE;
+}
+
+footer .contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .tarjetas {
+  margin: 30px;
+}
+
+footer .tarjetas h1 {
+  font-size: 1.5rem;
+}
+
+footer .tarjetas img {
+  width: 50px;
+}
+
+footer .redes {
+  margin: 30px;
+}
+
+footer .redes h1 {
+  font-size: 1.5rem;
+}
+
+footer .dataFiscal {
+  margin: 30px;
+}
+
+footer .dataFiscal h1 {
+  font-size: 1.5rem;
+}
+
+footer .dataFiscal img {
+  width: 50px;
+  margin: 0 20px;
+}
+
+.boton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton button {
+  background-color: #ce8c98;
+  border-radius: 15px;
+}
+
+.carouselFotos {
+  width: 100%;
+  margin: auto;
+}
+
+.container-fluid img {
+  width: 120px;
+}
+
+.seccionRegala {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seccionRegala img {
+  width: 200px;
+}
+
+.lugar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lugar h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3em;
+  font-weight: 800;
+  color: #ba989a;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 0.1em 0.1em #333;
+  margin: 10px;
+}
+
+.lugar button {
+  background-color: #ba989a;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.susana {
+  text-align: center;
+}
+
+.susana p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.abundante {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.abundante img {
+  width: 100px;
+}
+
+.somos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.somos img {
+  width: 100px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.trend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.trend img {
+  width: 100px;
+}
+
+.cartas {
+  background-image: url(../img/fondo.jpg);
+}
+
+.cartas h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cartas p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.mesDulce h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #ba989a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.franquisia img {
+  width: 390px;
+}
+
+.compra h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+}
+
+.style {
+  font-family: "Rampart One", cursive;
+  font-weight: 900;
+  color: #ce8c98;
+  font-size: 1rem;
+}
+
+.styleOne {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #f09cc0;
+}
+
+.styleTwo {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+
+.sobreNosotros {
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjetas img {
+  width: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .productos {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .carouselFotos {
+    width: 60%;
+  }
+  .franquisia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .franquisia img {
+    width: 80%;
+    height: 500px;
+  }
+  .lugar h1 {
+    font-size: 2rem;
+  }
+  .abundante {
+    width: 33%;
+  }
+  .trend {
+    width: 33%;
+  }
+  .somos {
+    width: 33%;
+  }
+  .boxDulce {
+    width: 40%;
+  }
+  .regala {
+    width: 40%;
+  }
+  .sobreNosotros {
+    flex-direction: row;
+  }
+  .seccionBox img {
+    width: 300px;
+  }
+  .seccionRegala img {
+    width: 300px;
+  }
+  footer .contenedor {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} /*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
